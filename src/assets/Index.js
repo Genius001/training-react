@@ -1,0 +1,15 @@
+import logo from './img/logo-tmmin.png'
+import zenix from './img/zenix.png'
+import checkBullet from './img/check-bullet.svg'
+import group84 from './img/Group 84.png'
+import icon24H from './img/icon_24hrs.svg'
+import iconComplete from './img/icon_complete.svg'
+import iconPrice from './img/icon_price.svg'
+import iconProfessional from './img/icon_professional.svg'
+import imgPhoto from './img/img_photo.png'
+import imgPhoto2 from './img/img_photo2.png'
+import imgService from './img/img-service.png'
+import rate from './img/rate.svg'
+import react from './img/react.svg'
+
+export { logo, zenix, checkBullet, group84, icon24H, iconComplete, iconPrice, iconProfessional, imgPhoto, imgPhoto2, imgService, rate, react }
