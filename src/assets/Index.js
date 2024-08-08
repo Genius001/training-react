@@ -8,8 +8,14 @@ import iconPrice from './img/icon_price.svg'
 import iconProfessional from './img/icon_professional.svg'
 import imgPhoto from './img/img_photo.png'
 import imgPhoto2 from './img/img_photo2.png'
+import imgPhoto3 from './img/img_photo3.png'
 import imgService from './img/img-service.png'
 import rate from './img/rate.svg'
 import react from './img/react.svg'
+import fb from './img/icon_facebook.svg'
+import twt from './img/icon_twitter.svg'
+import twc from './img/icon_twitch.svg'
+import eml from './img/icon_mail.svg'
+import ig from './img/icon_instagram.svg'
 
-export { logo, zenix, checkBullet, group84, icon24H, iconComplete, iconPrice, iconProfessional, imgPhoto, imgPhoto2, imgService, rate, react }
+export { logo, zenix, checkBullet, group84, icon24H, iconComplete, iconPrice, iconProfessional, imgPhoto, imgPhoto2, imgPhoto3, imgService, rate, react, fb, twt, twc, eml, ig }

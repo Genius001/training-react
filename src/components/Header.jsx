@@ -1,6 +1,6 @@
-import { logo } from "../assets/Index"
+import { logo } from "../assets/Index";
 
-export default function Navigation() {
+export default function Header() {
     return (
         <nav className="navbar navbar-expand-lg bg-red">
             <div className="container">
@@ -33,13 +33,11 @@ export default function Navigation() {
                             <a className="nav-link" href="#faq">FAQ</a>
                         </li>
                         <li className="nav-item">
-                            <a className="btn btn-success">Register</a>
+                            <a className="btn btn-success" href="#register">Register</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-    )
+    );
 }
-
-
