@@ -161,7 +161,7 @@ export default function Search() {
                         {cars && cars.length > 0
                             ? cars.map((e, index) => (
                                 <div className="col-10 col-md-3 mb-3" key={index}>
-                                    <div className="card pb-2" style={{ minWidth: '300px', maxWidth: '300px', minHeight: '500px', maxHeight: '500px', display: 'flex', flexDirection: 'column' }}>
+                                    <div className="card pb-2" style={{ minWidth: '250px', maxWidth: '250px', minHeight: '500px', maxHeight: '500px', display: 'flex', flexDirection: 'column' }}>
                                         <img src={e.image} className="card-img-top img-fluid" alt={e.name} style={{ maxHeight: '200px', objectFit: 'cover' }} />
                                         <div className="card-body d-flex flex-column">
                                             <h6>{e.name}</h6>
