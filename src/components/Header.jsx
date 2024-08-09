@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <nav className="navbar navbar-expand-lg bg-red">
             <div className="container">
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand" href="\">
                     <img src={logo} alt="TMMIN Car Rental" />
                 </a>
                 <button
@@ -21,19 +21,29 @@ export default function Header() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link" href="#our-services">Our Services</a>
+                            <a className="nav-link" href="\#our-services">
+                                Our Services
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#why-us">Why Us</a>
+                            <a className="nav-link" href="\#why-us">
+                                Why Us
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#testimonial">Testimonial</a>
+                            <a className="nav-link" href="\#testimonial">
+                                Testimonial
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#faq">FAQ</a>
+                            <a className="nav-link" href="\#faq">
+                                FAQ
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <a className="btn btn-success" href="#register">Register</a>
+                            <a className="btn btn-success" href="\login">
+                                Register
+                            </a>
                         </li>
                     </ul>
                 </div>

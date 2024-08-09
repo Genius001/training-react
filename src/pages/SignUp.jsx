@@ -42,7 +42,7 @@ const Form = styled.form`
 const Heading = styled.h2`
   margin-bottom: 2rem;
   font-size: 2rem;
-  text-align: center;
+  text-align: left;
 `;
 
 const InputContainer = styled.div`
@@ -86,48 +86,48 @@ const LinkStyled = styled(Link)`
   text-decoration: none;
 `;
 
-const ErrorText = styled.p`
-  color: red;
-  font-size: 0.875rem;
-  margin: 1rem 0;
-`;
-
-const Login = () => {
+const SignUp = () => {
+  const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [error, setError] = useState('');
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (email && password) {
-      if (/\S+@\S+\.\S+/.test(email)) { // Basic email validation
-        navigate('/');
-      } else {
-        setError('Please enter a valid email address');
-      }
+    if (username && email && password) {
+      navigate('/login');
     } else {
-      setError('Please fill in both fields');
+      alert('Please fill in all fields');
     }
   };
 
   return (
     <Container>
       <ImageContainer>
-        <Image src={carlog} alt="LoginImage" />
+        <Image src={carlog} alt="SignUpImage" />
       </ImageContainer>
       <Form onSubmit={handleSubmit}>
-        <Heading >Masuk</Heading>
-        {error && <ErrorText>{error}</ErrorText>}
+        <Heading>Daftar</Heading>
+        <InputContainer>
+          <Label htmlFor="username">Nama</Label>
+          <Input
+            type="text"
+            id="username"
+            name="username"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+            required
+          />
+        </InputContainer>
         <InputContainer>
           <Label htmlFor="email">Email</Label>
           <Input
             type="email"
             id="email"
+            name="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
-            aria-label="Email"
           />
         </InputContainer>
         <InputContainer>
@@ -135,17 +135,17 @@ const Login = () => {
           <Input
             type="password"
             id="password"
+            name="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
-            aria-label="Password"
           />
         </InputContainer>
-        <Button type="submit">Login</Button>
+        <Button type="submit">Sign Up</Button>
         <SignupText>
-          Belum punya akun?{' '}
-          <LinkStyled to="/signup">
-            Daftar sini
+          Sudah Punya Akun?{' '}
+          <LinkStyled to="/login">
+            Log in here
           </LinkStyled>
         </SignupText>
       </Form>
@@ -153,4 +153,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default SignUp;

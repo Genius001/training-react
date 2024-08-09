@@ -13,16 +13,16 @@ export default function Footer() {
                     <div className="col-12 col-md-3">
                         <ul>
                             <li>
-                                <a href="#our-services">Our Service</a>
+                                <a href="/#our-services">Our Service</a>
                             </li>
                             <li>
-                                <a href="#why-us">Why Us</a>
+                                <a href="/#why-us">Why Us</a>
                             </li>
                             <li>
-                                <a href="#testimonial">Testimonial</a>
+                                <a href="/#testimonial">Testimonial</a>
                             </li>
                             <li>
-                                <a href="#faq">FAQ</a>
+                                <a href="/#faq">FAQ</a>
                             </li>
                         </ul>
                     </div>

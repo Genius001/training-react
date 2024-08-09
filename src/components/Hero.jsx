@@ -1,5 +1,6 @@
 import { zenix } from "../assets/Index"
 const location = "Karawang"
+import { NavLink } from "react-router-dom"
 
 export default function Hero() {
     return (
@@ -14,7 +15,9 @@ export default function Hero() {
                             <p className="mb-4">
                                 Selamat datang di TMMIN Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.
                             </p>
-                            <a href="Sewa.jsx" className="btn btn-success">Mulai Sewa Mobil</a>
+                            <NavLink className="btn btn-success" to="/rent">
+                                Mulai Sewa Mobil
+                            </NavLink>
                         </div>
                     </div>
                     <div className="col-12 col-md-6">

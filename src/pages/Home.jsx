@@ -93,7 +93,7 @@ export default function Home() {
                             minus adipisci, nihil accusamus consectetur magnam excepturi fugit
                             consequatur ea. Quos, saepe?
                         </p>
-                        <Link to="/contact" className="btn btn-success">
+                        <Link to="/rent" className="btn btn-success">
                             Mulai Sewa Mobil
                         </Link>
                     </div>

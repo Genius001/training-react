@@ -17,5 +17,9 @@ import twt from './img/icon_twitter.svg'
 import twc from './img/icon_twitch.svg'
 import eml from './img/icon_mail.svg'
 import ig from './img/icon_instagram.svg'
+import calendar from './img/icon_calendar.svg'
+import setting from './img/icon_settings.svg'
+import user from './img/icon_users.svg'
+import carlog from './img/cars.png'
 
-export { logo, zenix, checkBullet, group84, icon24H, iconComplete, iconPrice, iconProfessional, imgPhoto, imgPhoto2, imgPhoto3, imgService, rate, react, fb, twt, twc, eml, ig }
+export { logo, zenix, checkBullet, group84, icon24H, iconComplete, iconPrice, iconProfessional, imgPhoto, imgPhoto2, imgPhoto3, imgService, rate, react, fb, twt, twc, eml, ig, calendar, setting, user, carlog }
