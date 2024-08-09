@@ -103,7 +103,7 @@ export default function Testimonial() {
                                             <img
                                                 src={rate}
                                                 alt="Rating"
-                                                className="pulse-rating mb-3" // Apply the pulse-rating class
+                                                className="pulse-rating mb-3"
                                             />
                                             <p>{item.description}</p>
                                             <label>{item.name}</label>
